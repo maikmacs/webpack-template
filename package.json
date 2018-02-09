@@ -1,0 +1,44 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "node server/server.js",
+    "dev": "webpack-dev-server --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://maikmacs@bitbucket.org/maikmacs/webpack-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/maikmacs/webpack-template#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "font-awesome-loader": "^1.0.2",
+    "image-webpack-loader": "^4.0.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "popper.js": "^1.12.9",
+    "sass-loader": "^6.0.6",
+    "transfer-webpack-plugin": "^0.1.4",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "postcss-loader": "^2.1.0",
+    "precss": "^3.1.0",
+    "style-loader": "^0.20.1",
+    "tether": "^1.4.3"
+  }
+}
